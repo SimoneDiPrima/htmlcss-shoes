@@ -2,5 +2,75 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Fredoka One', sans-serif;
+}
+header{
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+}
+.nav-menu{
+    font-size:15px;
+    font-weight:bold;
+    display:flex;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+.list-item{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+    padding-right:10px;
+}
+.item{
+color:black;
+height:100px;
+width:100px;
+border-radius:50%;
+border:1px solid black;
+background-color:white;
+padding:5px;
+font-size:20px;
+}
+.main-section{
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    height:100vh;
+    width:100%;
+}
+.section-shoes{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    line-height:50%;
+}
+.advertising{
+    height:50px;
+    text-align: center;
+    line-height:50%;
+    font-size:38px;
+    color:yellow;
+    font-weight:lighter;
+    
+}
+.red-shoes{
     background-color: red;
+}
+.green-shoes{
+    background-color: green;
+}
+#yellow-shoes{
+    background-color: yellow;
+}
+#yellow-adv{
+    color:green;
 }
