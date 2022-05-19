@@ -23,10 +23,11 @@ header{
     justify-content:flex-end;
 }
 .list-item{
+    width:100%;
     display:flex;
-    justify-content:space-around;
+    justify-content:flex-end;
     margin-top:50px;
-    padding-right:10px;
+    margin-right:100px;
 }
 .item{
 color:black;
@@ -35,8 +36,16 @@ width:100px;
 border-radius:50%;
 border:1px solid black;
 background-color:white;
-padding:5px;
+padding:10px;
 font-size:20px;
+margin-left:5px;
+align-self:center;
+}
+a{
+    text-decoration: none;
+}
+.item:before{
+    display:none;
 }
 .main-section{
     position:relative;
@@ -47,11 +56,13 @@ font-size:20px;
     width:100%;
 }
 .section-shoes{
+    height:calc(100vh - 124px);
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     line-height:50%;
+    font-size: 50%;
 }
 .advertising{
     height:50px;
