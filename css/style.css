@@ -28,6 +28,7 @@ header{
     justify-content:flex-end;
     margin-top:50px;
     margin-right:100px;
+    list-style-type: none;
 }
 .item{
 color:black;
@@ -44,9 +45,7 @@ align-self:center;
 a{
     text-decoration: none;
 }
-.item:before{
-    display:none;
-}
+
 .main-section{
     position:relative;
     top:0;
@@ -56,7 +55,7 @@ a{
     width:100%;
 }
 .section-shoes{
-    height:calc(100vh - 124px);
+    height:calc(100vh - 100px);
     position:absolute;
     top:50%;
     left:50%;
